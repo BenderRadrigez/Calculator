@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background: #000;
+  width: 390px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+#last-operatoin {
+  margin-top: 80px;
+  width: 90%;
+  font-size: 40px;
+  font-weight: 400;
+  color: #313131;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#display {
+  width: 95%;
+  font-size: 70px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: right;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  gap: 18px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: #313131;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  width: 70px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+}
+
+.math-operator {
+  background: #f69906;
+}
+
+.other-operator {
+  background: #9f9f9f;
+  color: #000;
+}
+
+.zero{
+  width: 160px;
+  aspect-ratio: 3;
+  border-radius: 35px;
+}
