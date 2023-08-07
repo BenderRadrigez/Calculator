@@ -114,6 +114,7 @@ equalsBtn.addEventListener("click", () => {
     number +
     equalsBtn.textContent;
   display.textContent = arrNumbers[arrNumbers.length - 1];
+  number = 0;
 });
 
 // получаем цифру и добавляем ее к числу на дисплее
